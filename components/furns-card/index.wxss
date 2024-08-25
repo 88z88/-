@@ -1,0 +1,40 @@
+.furns-card {
+  box-sizing: border-box;
+  font-size: 24rpx;
+  border-radius: 0 0 16rpx 16rpx;
+  border-bottom: none;
+}
+
+.furns-card__main {
+  position: relative;
+  display: flex;
+  line-height: 1;
+  padding: 0;
+  background: transparent;
+  width: 342rpx;
+  border-radius: 0 0 16rpx 16rpx;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16rpx;
+  flex-direction: column;
+}
+
+.furns-card__thumb {
+  flex-shrink: 0;
+  position: relative;
+  width: 340rpx;
+  height: 340rpx;
+}
+
+.furns-card__thumb:empty {
+  display: none;
+  margin: 0;
+}
+
+.furns-card__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 16rpx 16rpx 0 0;
+  overflow: hidden;
+}

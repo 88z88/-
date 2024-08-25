@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "furns-card": "/components/furns-card/index"
+  }
+}

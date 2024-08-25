@@ -1,0 +1,17 @@
+<view
+  class="furns-card"
+  bind:tap="clickHandle"
+  data-goods="{{ fruns }}"
+>
+	<view class="furns-card__main">
+		<view class="furns-card__thumb" bind:tap="clickThumbHandle">
+			<t-image
+			  t-class="furns-card__img"
+			  src="{{ furns.imageUrl }}"
+			  mode="aspectFill"
+			  lazy-load
+			/>
+		</view>
+	</view>
+</view>
+
